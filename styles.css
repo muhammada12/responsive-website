@@ -90,7 +90,7 @@ hr{border: 2px;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
-us.course-info{
+.course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
