@@ -107,7 +107,10 @@ hr{border: 2px;
 }
 /* section latest course styles */
 .course-banner{
-    box-shadow: 10px 5px 9px #1f4e5c;
+    margin-top: 5px;
+    width: 320px;
+    height: 320px;
+    box-shadow: 12px 15px 15px #1f4e5c;
     border-radius: 10px;
     margin-left: 7px;
 }
@@ -116,9 +119,18 @@ hr{border: 2px;
     height: 104px;
 }
 .courses{
+    height: 360px;
+    width: 870px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-column-gap: 24px;
+    overflow-x: scroll;
+}
+.courses::-webkit-scrollbar {
+    display: none;
+}
+.courses:hover .hoverr{
+    visibility: visible;
 }
 .course-info{
     display: flex;
