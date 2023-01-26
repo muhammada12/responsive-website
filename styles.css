@@ -63,15 +63,15 @@ hr{border: 2px;
    height: 268.86px;
    overflow-y: scroll;
 }
-.hoverr{
+.hoverr, .profile-hover{
     visibility: hidden;
     width: 120px;
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
     position: absolute;
+    padding: 5px 0;
     z-index: 1
 }
 .top-blogs:hover .hoverr{
@@ -185,3 +185,7 @@ hr{border: 2px;
     }
 }
 /* extra */
+/* nav */
+.mouse:hover .profile-hover{
+    visibility: visible;
+}
